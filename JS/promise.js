@@ -1,10 +1,8 @@
 const mypromise=new Promise(
     (resolve,reject)=>{
-        console.log("executed promise");
-        reject("network error");
-
+        console.log("Executed promise");
+        // resolve("All set")
+        reject("Network error");
     }
 );
-
-mypromise.then((msg)=>console.log(msg))
-        .catch((err)=>console.log(err));
+mypromise.then((message)=>console.log(msg)).catch((err)=>console.log("Error :",err));

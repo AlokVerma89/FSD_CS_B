@@ -11,7 +11,7 @@ function login(){
     setTimeout(()=>
     {
         console.log("Login end")
-    },8000)
+    },5000)
     // console.log("Register End");
 }
 function displaydata(){
